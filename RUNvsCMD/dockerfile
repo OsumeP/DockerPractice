@@ -1,0 +1,5 @@
+FROM alpine
+
+RUN echo "console.log("Hola mundo")" > /file.py
+
+CMD ["cat", "file.py"]
